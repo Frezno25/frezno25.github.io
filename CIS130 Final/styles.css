@@ -1,0 +1,35 @@
+/*
+Author:  Jesse Wentz
+Date: 11/24/18
+*/
+
+body {
+    background-image: url("stadium.png");
+	height: 100%
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    height: 140px;
+    width: 100px;
+    
+}
+
+#pikDiv {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+
+#umbDiv {
+    position: absolute;
+    top: 270px;
+    left: 0px;
+}
+
+
+#start {
+    right: 50%;
+}

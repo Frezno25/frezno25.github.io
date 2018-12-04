@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+Author: Jesse Wentz
+Date: 11/24/18
+-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>The Great Race</title>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+
+    <body onload="getReady()">
+        <input type="image" src="stop.jpg" id="start" onclick="startRace()">
+        
+        <input type="image" src="go.jpg" id="start2"
+            onclick="startRace()">
+        
+        <div id="pikDiv">
+            <img src="pikachu.gif" alt="Pikachu" id="Pikachu" class="racers" />
+            <img src="PikachuWins.png" alt="Pikachu Wins" id="PikachuWins"
+                class="racers" onclick="getReady()" />
+        </div>
+
+        <div id="umbDiv">
+            <img src="umbreon.gif" alt="Umreon" id="Umbreon" class="racers" />
+            <img src="UmbreonWins.png" alt="Umbreon Wins" id="UmbreonWins" class="racers"
+                onclick="getReady()" />
+        </div>
+
+        
+        <script src="index.js"></script>
+    </body>
+
+</html>
